@@ -19,4 +19,4 @@ Suggests:
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-URL: https://lan-k.github.io/CRXO/
+URL: https://github.com/lan-k/CRXO

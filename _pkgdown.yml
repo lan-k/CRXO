@@ -8,4 +8,15 @@ navbar:
   structure:
     left:  [intro, articles, reference]
     right: [search, github]
+  components:
+   articles:
+    text: Articles
+    menu:
+    - text: Journal Reference
+      href: https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8191
+  reference:
+  - title: Exported functions
+    desc:  CRXO Sample size
+  - contents:
+    - CRXO_samp
 
