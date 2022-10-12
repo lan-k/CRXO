@@ -14,6 +14,8 @@ navbar:
     menu:
     - text: Journal Reference
       href: https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8191
+    - text: Journal Article
+      href: 'articles/Journal-article.Rmd'
   reference:
   - title: Exported functions
     desc:  CRXO Sample size
