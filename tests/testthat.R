@@ -9,7 +9,7 @@
 library(testthat)
 library(CRXO)
 
-test_check("CRXO")
+# test_check("CRXO")
 
 test_that("Output is of correct length",{
   expect_length(CRXO_samp(0.01,0.005,20,5000), 1) #Returns something with a length of 1
