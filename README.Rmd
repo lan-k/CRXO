@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  # fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# CRXO
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of CRXO is to provide functions for Cluster randomised crossover trials.
+
+## Installation
+
+You can install the development version of CRXO like so:
+
+``` r
+remotes::install_github("lan-k/CRXO")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(CRXO)
+## sample size for fixed number of clusters
+
+CRXO_samp(0.01,0.005,10,5000)
+
+
+```
+
+

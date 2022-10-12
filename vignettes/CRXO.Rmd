@@ -1,0 +1,28 @@
+---
+title: "CRXO"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{CRXO}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup}
+library(CRXO)
+```
+
+Example: ICC = 0.01, IPC = 0.05, m = 20, s = 5000
+Function returns the cluster size
+
+```{r example}
+ 
+CRXO_samp(0.01,0.005,10,5000)
+```
