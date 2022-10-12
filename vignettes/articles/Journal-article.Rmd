@@ -1,0 +1,17 @@
+---
+title: "Journal article"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(CRXO)
+```
+
+
+See https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8191

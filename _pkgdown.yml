@@ -1,4 +1,11 @@
 url: https://lan-k.github.io/CRXO/
 template:
   bootstrap: 5
+  bootswatch: spacelab
+navbar:
+  bg: primary
+  type: light
+  structure:
+    left:  [intro, articles, reference]
+    right: [search, github]
 
