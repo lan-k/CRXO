@@ -4,19 +4,19 @@
 \alias{CRXO_samp}
 \title{Sample size for CRXO RCT with fixed number of clusters}
 \usage{
-CRXO_samp(ICC, IPC, m, s)
+CRXO_samp(ICC, IPC, k, s)
 }
 \arguments{
 \item{ICC}{Intercluster correlation coefficient}
 
 \item{IPC}{Interperiod correlation coefficient}
 
-\item{m}{Number of clusters}
+\item{k}{Number of clusters}
 
 \item{s}{Individually randomised sample size}
 }
 \value{
-k cluster size
+m cluster size
 }
 \description{
 Sample size for CRXO RCT with fixed number of clusters
